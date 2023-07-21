@@ -1,0 +1,26 @@
+{
+  "name": "@evankwolf/eslint-config-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@8.6.7",
+  "author": "Evan Kwolf <evanliu9704@gmail.com> (https://github.com/evankwolf/)",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "pnpm -r run stub && eslint .",
+    "test": "pnpm -r run test",
+    "build": "pnpm -r run build",
+    "bump": "bumpp -r",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@evankwolf/eslint-config": "workspace:*",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.45.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  }
+}

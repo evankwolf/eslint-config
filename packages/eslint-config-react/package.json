@@ -1,0 +1,23 @@
+{
+  "name": "@evankwolf/eslint-config-react",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@8.6.7",
+  "author": "Evan Kwolf <evanliu9704@gmail.com> (https://github.com/evankwolf/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "pnpm -r run stub && eslint .",
+    "test": "pnpm -r run test",
+    "build": "pnpm -r run build",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@evankwolf/eslint-config-basic": "workspace:*",
+    "@evankwolf/eslint-config-ts": "workspace:*",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.45.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  }
+}
