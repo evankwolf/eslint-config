@@ -1,6 +1,6 @@
 {
   "name": "@evankwolf/eslint-config-monorepo",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "packageManager": "pnpm@8.6.7",
   "private": true,
   "author": "Evan Kwolf <evanliu9704@gmail.com> (https://github.com/evankwolf/)",
