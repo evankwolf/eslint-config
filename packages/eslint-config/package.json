@@ -1,6 +1,6 @@
 {
   "name": "@evankwolf/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "EvanKwolf's ESLint config.",
   "author": "Evan Kwolf <evanliu9704@gmail.com> (https://github.com/evankwolf/)",
   "license": "MIT",
