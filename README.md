@@ -1,4 +1,4 @@
-# @evankwolf/eslint-config
+# @evanryuu/eslint-config
 
 > This repo is based on @antfu/eslint-config. Learn more from [his repo](https://github.com/antfu/eslint-config).
 >
@@ -8,14 +8,14 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @evankwolf/eslint-config
+pnpm add -D eslint @evanryuu/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@evankwolf"
+  "extends": "@evanryuu"
 }
 ```
 

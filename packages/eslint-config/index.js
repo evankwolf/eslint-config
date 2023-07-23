@@ -4,8 +4,8 @@ const IS_VUE = isPackageExists('vue')
 const IS_REACT = isPackageExists('react')
 
 const frameExtends = [
-  IS_VUE ? '@evankwolf/eslint-config-vue' : null,
-  IS_REACT ? '@evankwolf/eslint-config-react' : null
+  IS_VUE ? '@evanryuu/eslint-config-vue' : null,
+  IS_REACT ? '@evanryuu/eslint-config-react' : null
 ]
 
 

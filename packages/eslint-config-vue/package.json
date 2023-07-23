@@ -1,8 +1,8 @@
 {
-  "name": "@evankwolf/eslint-config-vue",
+  "name": "@evanryuu/eslint-config-vue",
   "version": "0.1.0",
   "description": "",
-  "author": "Evan Kwolf <evanliu9704@gmail.com> (https://github.com/evankwolf/)",
+  "author": "Evan Liu <evanryuu@outlook.com> (https://github.com/evanryuu/)",
   "license": "MIT",
   "keywords": [
     "eslint-config"
@@ -15,8 +15,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@evankwolf/eslint-config-basic": "workspace:*",
-    "@evankwolf/eslint-config-ts": "workspace:*",
+    "@evanryuu/eslint-config-basic": "workspace:*",
+    "@evanryuu/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.15.1",
     "local-pkg": "^0.4.3"
   },

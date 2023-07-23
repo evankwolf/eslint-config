@@ -3,7 +3,7 @@ const { isPackageExists } = require('local-pkg')
 const TS = isPackageExists('typescript')
 
 if (!TS)
-  console.warn('[@evankwolf/eslint-config] TypeScript is not installed, fallback to JS only.')
+  console.warn('[@evanryuu/eslint-config] TypeScript is not installed, fallback to JS only.')
 
 module.exports = {
   extends: [
@@ -12,8 +12,8 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:css-import-order/recommended',
     TS
-      ? '@evankwolf/eslint-config-ts'
-      : '@evankwolf/eslint-config-basic',
+      ? '@evanryuu/eslint-config-ts'
+      : '@evanryuu/eslint-config-basic',
   ],
   env: {
     browser: true,

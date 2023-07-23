@@ -1,10 +1,10 @@
 {
-  "name": "@evankwolf/eslint-config-basic",
+  "name": "@evanryuu/eslint-config-basic",
   "version": "0.1.0",
   "description": "",
-  "author": "Evan Kwolf <evanliu9704@gmail.com> (https://github.com/evankwolf/)",
+  "author": "Evan Liu <evanryuu@outlook.com> (https://github.com/evanryuu/)",
   "license": "MIT",
-  "homepage": "https://github.com/evankwolf/eslint-config",
+  "homepage": "https://github.com/evanryuu/eslint-config",
   "keywords": [
     "eslint-config"
   ],

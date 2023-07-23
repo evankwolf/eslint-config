@@ -1,8 +1,8 @@
 {
-  "name": "@evankwolf/eslint-config-react",
+  "name": "@evanryuu/eslint-config-react",
   "version": "0.1.0",
   "packageManager": "pnpm@8.6.7",
-  "author": "Evan Kwolf <evanliu9704@gmail.com> (https://github.com/evankwolf/)",
+  "author": "Evan Liu <evanryuu@outlook.com> (https://github.com/evanryuu/)",
   "license": "MIT",
   "scripts": {
     "lint": "pnpm -r run stub && eslint .",
@@ -12,8 +12,8 @@
     "release": "bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
-    "@evankwolf/eslint-config-basic": "workspace:*",
-    "@evankwolf/eslint-config-ts": "workspace:*",
+    "@evanryuu/eslint-config-basic": "workspace:*",
+    "@evanryuu/eslint-config-ts": "workspace:*",
     "bumpp": "^9.1.1",
     "eslint": "^8.45.0",
     "rimraf": "^5.0.1",

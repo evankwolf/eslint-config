@@ -1,10 +1,10 @@
 {
-  "name": "@evankwolf/eslint-config",
+  "name": "@evanryuu/eslint-config",
   "version": "0.1.0",
   "description": "EvanKwolf's ESLint config.",
-  "author": "Evan Kwolf <evanliu9704@gmail.com> (https://github.com/evankwolf/)",
+  "author": "Evan Liu <evanryuu@outlook.com> (https://github.com/evanryuu/)",
   "license": "MIT",
-  "homepage": "https://github.com/evankwolf/eslint-config",
+  "homepage": "https://github.com/evanryuu/eslint-config",
   "keywords": [
     "eslint-config"
   ],
@@ -16,8 +16,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@evankwolf/eslint-config-vue": "workspace:*",
-    "@evankwolf/eslint-config-react": "workspace:*",
+    "@evanryuu/eslint-config-vue": "workspace:*",
+    "@evanryuu/eslint-config-react": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
