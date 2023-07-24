@@ -11,14 +11,16 @@
     "prepare": "pnpm -r run stub",
     "release": "bumpp -r && pnpm -r publish"
   },
-  "devDependencies": {
-    "bumpp": "^9.1.1",
-    "eslint": "^8.45.0",
+  "dependencies": {
     "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-css-import-order": "^1.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "devDependencies": {
+    "bumpp": "^9.1.1",
+    "eslint": "^8.45.0",
     "rimraf": "^5.0.1",
     "typescript": "^5.1.6"
   }
