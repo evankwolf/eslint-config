@@ -12,11 +12,14 @@
     "release": "bumpp -r && pnpm -r publish"
   },
   "dependencies": {
+    "@evanryuu/eslint-config-basic": "workspace:*",
+    "@evanryuu/eslint-config-ts": "workspace:*",
     "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-css-import-order": "^1.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "local-pkg": "^0.4.3"
   },
   "devDependencies": {
     "bumpp": "^9.1.1",

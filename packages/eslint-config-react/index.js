@@ -1,8 +1,20 @@
+const { isPackageExists } = require('local-pkg')
+
+const IS_TS = isPackageExists('typescript')
+
+if (!IS_TS)
+  console.warn('[@evanryuu/eslint-config-react] TypeScript is not installed, fallback to JS only.')
+
+const typeExtends = [
+  IS_TS ? '@evanryuu/eslint-config-ts' : '@evanryuu/eslint-config-basic',
+]
+
 module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:css-import-order/recommended',
+    ...typeExtends,
   ],
   parserOptions: {
     ecmaFeatures: {

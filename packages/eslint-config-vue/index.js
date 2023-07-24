@@ -1,4 +1,20 @@
+const { isPackageExists } = require('local-pkg')
+
+const IS_TS = isPackageExists('typescript')
+
+if (!IS_TS)
+  console.warn('[@evanryuu/eslint-config-vue] TypeScript is not installed, fallback to JS only.')
+
+const typeExtends = [
+  IS_TS ? '@evanryuu/eslint-config-ts' : '@evanryuu/eslint-config-basic',
+]
+
 module.exports = {
+  extends: [
+    'plugin:vue/vue3-recommended',
+    'plugin:css-import-order/recommended',
+    ...typeExtends,
+  ],
   overrides: [
     {
       files: ['*.vue'],
@@ -9,10 +25,6 @@ module.exports = {
     },
   ],
   plugins: ['css-import-order', 'import'],
-  extends: [
-    'plugin:vue/vue3-recommended',
-    'plugin:css-import-order/recommended',
-  ],
   rules: {
     'import/order': [
       'error',
