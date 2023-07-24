@@ -15,10 +15,9 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@evanryuu/eslint-config-basic": "workspace:*",
-    "@evanryuu/eslint-config-ts": "workspace:*",
-    "eslint-plugin-vue": "^9.15.1",
-    "local-pkg": "^0.4.3"
+    "eslint-plugin-css-import-order": "^1.1.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-vue": "^9.15.1"
   },
   "devDependencies": {
     "eslint": "^8.45.0"
