@@ -1,6 +1,6 @@
 {
   "name": "@evanryuu/eslint-config-monorepo",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": true,
   "packageManager": "pnpm@8.6.7",
   "author": "Evan Liu <evanryuu@outlook.com> (https://github.com/evanryuu/)",
