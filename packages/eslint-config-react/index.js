@@ -27,6 +27,8 @@ module.exports = {
   ],
   rules: {
     'react/jsx-indent-props': [2, 2],
+    'react/jsx-indent': [2, 2],
+    'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
     'react/jsx-one-expression-per-line': 0,
     'react/react-in-jsx-scope': 0,
     'react/prop-types': 0,
