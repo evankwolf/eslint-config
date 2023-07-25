@@ -41,15 +41,20 @@ module.exports = {
     'css-import-order',
   ],
   rules: {
-    'react/jsx-indent-props': [2, 2],
-    'react/jsx-indent': [2, 2],
+    'react/jsx-indent-props': ['error', 2],
+    'react/jsx-indent': ['error', 2],
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
     'react/jsx-one-expression-per-line': 0,
     'react/react-in-jsx-scope': 0,
     'react/prop-types': 0,
-    'react/jsx-curly-spacing': [2, 'never'],
+    'react/jsx-curly-spacing': ['error', {
+      when: 'never',
+      children: {
+        when: 'always',
+      },
+    }],
     'react/forbid-prop-types': 0,
-    'react/jsx-boolean-value': [2, 'never'],
+    'react/jsx-boolean-value': ['error', 'never'],
     'react/jsx-wrap-multilines': ['error', {
       declaration: false,
       assignment: false,
