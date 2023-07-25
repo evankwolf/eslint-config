@@ -1,13 +1,16 @@
 const { isPackageExists } = require('local-pkg')
 
 const IS_TS = isPackageExists('typescript')
-
-if (!IS_TS)
-  console.warn('[@evanryuu/eslint-config-react] TypeScript is not installed, fallback to JS only.')
+const IS_USING_MONOREPO = isPackageExists('@evanryuu/eslint-config')
 
 const typeExtends = [
   IS_TS ? '@evanryuu/eslint-config-ts' : '@evanryuu/eslint-config-basic',
 ]
+
+if (!IS_TS)
+  console.warn('[@evanryuu/eslint-config-react] TypeScript is not installed, fallback to JS only.')
+
+if (IS_USING_MONOREPO) typeExtends.unshift()
 
 module.exports = {
   extends: [
