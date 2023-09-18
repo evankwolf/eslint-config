@@ -17,11 +17,11 @@ const typeExtends = [
 ]
 
 const finalExtends = frameExtends.some(ext => ext !== null)
-? frameExtends.filter(ext => ext !== null)
-: typeExtends
+  ? frameExtends.filter(ext => ext !== null)
+  : typeExtends
 
 module.exports = {
   extends: [
-    ...finalExtends
+    ...finalExtends,
   ],
 }
