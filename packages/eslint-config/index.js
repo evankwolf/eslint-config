@@ -16,9 +16,12 @@ const typeExtends = [
   IS_TS ? '@evanryuu/eslint-config-ts' : '@evanryuu/eslint-config-basic',
 ]
 
+const finalExtends = frameExtends.some(ext => ext !== null)
+? frameExtends.filter(ext => ext !== null)
+: typeExtends
+
 module.exports = {
   extends: [
-    ...frameExtends.filter(ext => ext !== null),
-    ...typeExtends,
+    ...finalExtends
   ],
 }
